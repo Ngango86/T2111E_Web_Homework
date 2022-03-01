@@ -1,0 +1,21 @@
+h1{
+    color: red;
+}
+p{
+    /*color: rgb(0,25,0);*/
+    color: #00FF00; /*Hexa*/
+    font-size: 30px;
+    font-weigt: 100; /* 100-thin; 300-light; 400-normal; 500-medium; 600-semi bold; 700-bold; 800-extra bold; 900-black;*/
+    text-align: justify; /* left - right - centre - justify */
+    line-height: 1.5; /* 1.5 x 15px -> 22,5px */
+    font-family: "Times New Roman";
+    text-decoration: none; /* under line-through overline - none */
+    text-indent: 20px; /*px,pt,em %...*/
+    width: 800px;
+    background-color: #00FF00;
+    border-bottom: 1px solid #DAA520; /* solid dashed dotted */
+}
+a{
+    text-decoration:none;
+    text-transform: none; /* uppercase; lowercase; */
+}
