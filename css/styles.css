@@ -1,0 +1,65 @@
+.main {
+    background: #5098d5;
+    color: white;
+    padding: 50px 0;
+}
+
+.main .ttl {
+    margin-bottom: 50px;
+}
+
+.main-box {
+    background: white;
+    padding: 50px;
+    max-width: 820px;
+    margin: 0 auto;
+    color: gray;
+    border-radius: 20px;
+}
+
+.main-box > * {
+    width: 100%;
+}
+
+.tabs-head {
+    margin-bottom: 20px;
+}
+
+.tabs-head > * {
+    background: gray;
+    color: white;
+    padding: 10px;
+    margin: 0 10px 2px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tabs-head > *.active {
+    background: #5098d5;
+}
+
+.tabs-cnt > * {
+    display: none;
+}
+
+.tabs-cnt > *.active {
+    display: block;
+}
+
+.tabs-cnt > * form > * {
+    margin-bottom: 20px;
+}
+
+.tabs-cnt > * form > *:last-child {
+    margin-bottom: 0;
+}
+
+.tabs-cnt > * form .gender > * {
+    margin-right: 20px;
+}
+
+.tabs-cnt > * form textarea {
+    height: 200px;
+}
+
+/*# sourceMappingURL=maps/styles.css.map */
